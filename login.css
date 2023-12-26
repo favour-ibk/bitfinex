@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.second{
+    background-color: #0d1d29; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    padding-left: 50px;
+    display: flex;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 70%;
+    height: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.div{
+    display: flex;
+    background-color: #0f2d43;
+    height: 40px;
+    width: 75%;
+}
+.fa-eye-slash{
+    padding: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+nav, ul, li{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 7px 10px 7px;
+    cursor: pointer;
+    border: none;
+    background-color: #0f2d43;
+    width: 20%;
+    margin-top: 2%;
+}
+.account{
+    display: flex;
+    padding-right: 30px;
+    gap: 70px;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    margin-left: 70px;
+  }
+  .menus8{
+   cursor: pointer;
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+  }
+  .menus8 a{
+    text-decoration: none;
+    color: white;
+
+  }
+  
+
+  #language{
+    background-color:rgb(20, 38, 53);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+  }
+
+.first{
+    padding: 30px;
+    width: 50%;
+    height: 50vh;
+    padding-left: 20%;
+    margin-top: 100px;
+}
+
+a{
+    margin-right: 10px;
+    
+}
+
+input{
+    background-color: #0f2d43;
+    height: 10px;
+    border-radius: 0px;
+}
+
+.fa-eye{
+    color: white;
+    display: flex;
+    width: 10px;
+    background-color: beige;
+}
+
+@media only screen and (width<800px){
+    .logo{
+        padding-left: 20px;
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }
+    .logo img{
+        width: 150px;
+
+    }
+    .account{
+        display: flex;
+        padding-right: 0px;
+        gap: 0px;
+        width: 20%;
+        height: 50px;
+        justify-content: center;
+        margin-left: 40px;
+      }
+
+      .menus8{
+       cursor: pointer;
+        height: 40px;
+        background-color: green;
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+
+      .menus8 a{
+        text-decoration: none;
+        color: white;
+      }
+      
+      #language{
+        background-color:rgb(20, 38, 53);
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 200px;
+      }
+}
+
+
